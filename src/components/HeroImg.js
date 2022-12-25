@@ -1,5 +1,5 @@
 import "./HeroImgStyles.css";
-import IntroImg from "../assets/IntoImg.jpeg";
+import IntroImg from "../assets/img.jpeg";
 import React from 'react'
 import {Link} from "react-router-dom";
 
@@ -11,7 +11,7 @@ const HeroImg = () => {
 
     </div>
     <div className="content">
-        <p>HI, I am Prashi Jain</p>
+        <p>HI, I am Shloka Mahesheka</p>
         <h1>Full Stack Developer</h1>
         <div>
             <Link to ="/project"

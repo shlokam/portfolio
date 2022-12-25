@@ -42,10 +42,13 @@ const Footer = () => {
                 I enjoy discussing new peojects and design challenges
             </p>
             <div className="social">
-            <FaFacebook
+              <a href="https://inmotionhosting.com">
+              <FaFacebook
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
+              </a>
+            
               <FaTwitter
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}

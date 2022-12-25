@@ -32,6 +32,10 @@ ul{
   cursor: pointer;
 }
 
+.btn a{
+  color:#222;
+}
+
 .btn-light{
   background: transparent;
   color:#fff;
