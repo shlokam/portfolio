@@ -1,7 +1,7 @@
 import "./FooterStyles.css";
 import React from "react";
-import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitch, FaTwitter } from "react-icons/fa";
-
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
+import {SiLeetcode} from "react-icons/si";
 const Footer = () => {
   return (
     <div className="footer">
@@ -42,25 +42,26 @@ const Footer = () => {
                 I enjoy discussing new peojects and design challenges
             </p>
             <div className="social">
-              <a href="https://inmotionhosting.com">
-              <FaFacebook
+              <a href="https://leetcode.com/shlokam/">
+              <SiLeetcode
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
               </a>
             
-              <FaTwitter
+            <a href="https://www.linkedin.com/in/shloka-mahesheka-36402117b/">
+            <FaLinkedin
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
-              <FaLinkedin
+            </a>
+              <a href= "https://github.com/shlokam">
+              <FaGithub 
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
-              <FaGithub
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
+              </a>
+              
             </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import './AboutContentStyles.css';
 import React from 'react'
 import { Link } from 'react-router-dom';
-import img1 from '../assets/img.jpeg';
-import img2 from '../assets/img.jpeg';
+import img1 from '../assets/backend.png';
+import img2 from '../assets/frontend.png';
 const AboutContent = () => {
   return (
     <div className='about'>

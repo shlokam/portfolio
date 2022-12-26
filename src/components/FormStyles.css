@@ -19,3 +19,10 @@ label{
         border-color: rgba(255,255,255,0.1);
         color: #f4f4f4;
     }
+
+.form p{
+    color: #fff;
+    font-size:2rem;
+    margin-top: 2rem;
+    padding: 10px 220px;
+}
