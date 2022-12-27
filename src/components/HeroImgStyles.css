@@ -36,19 +36,46 @@
     left:50%;
     text-align: center;
 }
-.hero .content h1{
+/* .hero .content h1{
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
 }
 .hero .content p{
 font-size: 1.4rem;
 font-weight: 200;
-text-transform: uppercase;
-}
+/* text-transform: uppercase; 
+} */
+
 .content .btn
 {
     margin: 1rem 0.2rem;
 }
+
+.content .details .text{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+    font-size: 40px;
+    color: white;
+}
+.content .details .text .typical{
+    font-family: cursive;
+    font-size: 3rem;
+
+}
+
+.profile-details-name{
+    font-size: 40px;
+    font-family: "Poppins SemiBold";
+     color: white;
+     /* background-color: aqua; */
+}
+
+.profile-details-name .highlighted-text{
+     color: #FF5823;
+}
+
+
 
 @media screen and(max-width: 640px)
 {
