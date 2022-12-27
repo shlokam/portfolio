@@ -17,7 +17,7 @@ const ProjectCardData= [
     },
     {
         imgsrc: pro3,
-        title: "Title3",
+        title: "Super Resolution of Images",
         text: "Description3",
         view : "https://google.com"
     }
