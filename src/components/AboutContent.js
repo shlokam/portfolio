@@ -17,6 +17,10 @@ const AboutContent = () => {
             <Link to="/contact">
                 <button className='btn'> Contact</button>
             </Link>
+
+            <div className='details'>
+
+            </div>
         </div>
         <div className="right">
             {/* <div className="img-container">
