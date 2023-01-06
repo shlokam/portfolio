@@ -21,7 +21,9 @@
 }
 
 .project-card img{
-    width: 100%;
+   
+   
+   width: 100%;
 }
 
 .project-title
@@ -40,6 +42,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 0;
+    margin-left: 5rem;
 }
 .pro-btns .pro-btn{
 padding: 0.5rem 1rem;

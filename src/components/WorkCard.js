@@ -7,7 +7,7 @@ import { NavLink,Link } from "react-router-dom";
 const WorkCard = (props) => {
   return (
     <div className="project-card">
-    <img src={props.imgsrc} alt="Project Image" />
+        <img src={props.imgsrc} alt="Project Image" />    
     <h2 className="project-title">{props.title}</h2>
     <div className="pro-details">
         <p>{props.text}</p>
@@ -17,11 +17,11 @@ const WorkCard = (props) => {
                     View
                 </a>
             </button>
-            <button className="btn">
+            {/* <button className="btn">
                 <a href="https://www.google.com/">
                     Source
                 </a>
-            </button>
+            </button> */}
         </div>
     </div>
 </div>

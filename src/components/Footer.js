@@ -10,8 +10,8 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>Bangur Avenue</p>
-              <p>Kolkata, West Bengal, India</p>
+              <p></p>
+              <p> West Bengal, India</p>
             </div>
           </div>
           <div className="phone">
@@ -35,11 +35,10 @@ const Footer = () => {
         </div>
         <div className="right">
             <h4>
-                About The company
+               
             </h4>
             <p>
-                This is me Shloka Mahesheka. CEO & Founder of Tech2etc. 
-                I enjoy discussing new peojects and design challenges
+                This is me Shloka Mahesheka. 
             </p>
             <div className="social">
               <a href="https://leetcode.com/shlokam/">

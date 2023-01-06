@@ -1,25 +1,47 @@
 .about{
  width: 100%;
  margin: 3rem 0;
- display: flex;
+ /* display: flex; */
  align-items: center;
  justify-content:center;
  flex-wrap: wrap;
  height: 100%;
+ color: white;
 }
 
 .about .left{
  text-align: center;
  margin: auto;
  padding: 1rem;
- max-width: 350px;
+ max-width: 700px;
+}
+
+.about .left .btn{
+    margin-top: 2rem
 }
 
 .about .left p{
  margin: 1.2rem 0;
 }
+
+.about .left ul p{
+    color: rgb(248,217,15);
+   font-size: 30px;
+   font-style: italic;
+   font-weight: bold;
+}
+.about .left .title{
+   
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.about .left ul li{
+    color: white;
+    font-size: 20px;
+}
 .about .right{
- max-width: 700px;
+ /* max-width: 700px; */
 }
 
 .right .img-container{
@@ -49,8 +71,10 @@ z-index: 6;
 }
 
 .icons{
+    /* margin-left: 20rem ; */
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
+    size: 100%;   
 }
     
 
